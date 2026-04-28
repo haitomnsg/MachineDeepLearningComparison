@@ -1,0 +1,34 @@
+[
+  {
+    "model_family": "LogisticRegression",
+    "val_accuracy": 0.724148613915917,
+    "val_precision_macro": 0.5888786945709509,
+    "val_recall_macro": 0.5061259864065966,
+    "val_f1_macro": 0.5260776457469378,
+    "val_roc_auc": 0.9366121935417786,
+    "test_accuracy": 0.7226110703139342,
+    "test_precision_macro": 0.5956286234404251,
+    "test_recall_macro": 0.5067659292656889,
+    "test_f1_macro": 0.5283664793406195,
+    "test_roc_auc": 0.9356400718139846,
+    "train_time_sec": 12.351232975999892,
+    "inference_per_sample_ms": 0.00019658707338905492,
+    "best_params": "{\"C\": 3.0, \"max_iter\": 300, \"solver\": \"lbfgs\"}"
+  },
+  {
+    "model_family": "MLPClassifier",
+    "val_accuracy": 0.9007366440242335,
+    "val_precision_macro": 0.8686560085768529,
+    "val_recall_macro": 0.8319060689908867,
+    "val_f1_macro": 0.8491196589892359,
+    "val_roc_auc": 0.9907521802686031,
+    "test_accuracy": 0.9009202313199927,
+    "test_precision_macro": 0.8639506445600119,
+    "test_recall_macro": 0.8340818494556282,
+    "test_f1_macro": 0.847687973149512,
+    "test_roc_auc": 0.9908146849911786,
+    "train_time_sec": 190.02245269799982,
+    "inference_per_sample_ms": 0.004222542384798991,
+    "best_params": "{\"alpha\": 0.0001, \"hidden_layer_sizes\": [256, 128], \"learning_rate_init\": 0.001, \"max_iter\": 120}"
+  }
+]

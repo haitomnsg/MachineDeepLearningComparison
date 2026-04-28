@@ -1,0 +1,3 @@
+model_family,val_accuracy,val_precision_macro,val_recall_macro,val_f1_macro,val_roc_auc,test_accuracy,test_precision_macro,test_recall_macro,test_f1_macro,test_roc_auc,train_time_sec,inference_per_sample_ms,best_params
+LogisticRegression,1.0,1.0,1.0,1.0,1.0,0.9883720930232558,0.990909090909091,0.984375,0.9874763361001893,1.0,0.011808910999945965,0.0011750773255822112,"{""C"": 0.01, ""class_weight"": ""balanced"", ""max_iter"": 2000, ""solver"": ""lbfgs""}"
+MLPClassifier,0.9883720930232558,0.990909090909091,0.984375,0.9874763361001893,1.0,0.9767441860465116,0.9821428571428572,0.96875,0.9747800586510265,1.0,0.32241719099999955,0.004403014108527876,"{""alpha"": 0.0001, ""hidden_layer_sizes"": [128, 64], ""learning_rate_init"": 0.0005, ""max_iter"": 400}"
