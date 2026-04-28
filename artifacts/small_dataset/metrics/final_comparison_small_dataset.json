@@ -11,9 +11,25 @@
     "test_recall_macro": 0.984375,
     "test_f1_macro": 0.9874763361001893,
     "test_roc_auc": 1.0,
-    "train_time_sec": 0.011808910999945965,
-    "inference_per_sample_ms": 0.0011750773255822112,
+    "train_time_sec": 0.011088668000013513,
+    "inference_per_sample_ms": 0.0013684474418654603,
     "best_params": "{\"C\": 0.01, \"class_weight\": \"balanced\", \"max_iter\": 2000, \"solver\": \"lbfgs\"}"
+  },
+  {
+    "model_family": "XGBoost",
+    "val_accuracy": 0.9651162790697675,
+    "val_precision_macro": 0.9656891495601173,
+    "val_recall_macro": 0.9594907407407407,
+    "val_f1_macro": 0.9624290083005679,
+    "val_roc_auc": 0.998263888888889,
+    "test_accuracy": 1.0,
+    "test_precision_macro": 1.0,
+    "test_recall_macro": 1.0,
+    "test_f1_macro": 1.0,
+    "test_roc_auc": 1.0,
+    "train_time_sec": 0.20529258199999845,
+    "inference_per_sample_ms": 0.007708811162791165,
+    "best_params": "{\"n_estimators\": 400, \"max_depth\": 4, \"learning_rate\": 0.1}"
   },
   {
     "model_family": "MLPClassifier",
@@ -27,8 +43,24 @@
     "test_recall_macro": 0.96875,
     "test_f1_macro": 0.9747800586510265,
     "test_roc_auc": 1.0,
-    "train_time_sec": 0.32241719099999955,
-    "inference_per_sample_ms": 0.004403014108527876,
+    "train_time_sec": 0.13318608900002005,
+    "inference_per_sample_ms": 0.0040868060465114936,
     "best_params": "{\"alpha\": 0.0001, \"hidden_layer_sizes\": [128, 64], \"learning_rate_init\": 0.0005, \"max_iter\": 400}"
+  },
+  {
+    "model_family": "TabNet",
+    "val_accuracy": 0.9883720930232558,
+    "val_precision_macro": 0.9848484848484849,
+    "val_recall_macro": 0.9907407407407407,
+    "val_f1_macro": 0.9876347951114307,
+    "val_roc_auc": 1.0,
+    "test_accuracy": 0.9767441860465116,
+    "test_precision_macro": 0.9705882352941176,
+    "test_recall_macro": 0.9814814814814814,
+    "test_f1_macro": 0.9754145225843339,
+    "test_roc_auc": 1.0,
+    "train_time_sec": 6.110882167,
+    "inference_per_sample_ms": 0.14615805151163255,
+    "best_params": "{\"n_d\": 16, \"n_a\": 16, \"n_steps\": 4, \"gamma\": 1.5, \"lr\": 0.02}"
   }
 ]
